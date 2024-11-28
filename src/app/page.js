@@ -4,7 +4,7 @@ import CursorEffect from './CursorEffect';
 const Home = () => {
   return (
     <div>
-      <img src='/waldo/1.jpg'/>
+      {/* <img src='/waldo/1.jpg'/> */}
       <CursorEffect />
     </div>
   );
