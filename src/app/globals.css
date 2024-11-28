@@ -42,7 +42,7 @@
   height: 100%;
   position: absolute;
   pointer-events: none;
-  background: radial-gradient(circle 7vmax at var(--cursorX) var(--cursorY),
+  background: radial-gradient(circle 5vmax at var(--cursorX) var(--cursorY),
       rgba(0, 0, 0, 0) 0%,
       /* rgba(0, 0, 0, 0) 30%, */
       rgba(0, 0, 0, 0) 90%,
