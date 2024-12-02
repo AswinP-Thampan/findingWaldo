@@ -1,6 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { useEffect} from 'react';
 
 const CursorEffect = () => {
+
     useEffect(() => {
         const updateCursor = (e) => {
             const x = e.clientX || (e.touches && e.touches[0]?.clientX);
@@ -35,11 +36,9 @@ const CursorEffect = () => {
     }, []);
 
     return (
-        <div className='background-container'>
-            <div className="image-container">
+            <div className="relative mx-auto max-w-[90%] max-h-[90%] overflow-hidden border-[0.3vw] border-white shadow-[0_10px_50px_rgba(0,0,0,0.9)] rounded-[1vw] cursor-none image-container">
                 <img src="/waldo/1.jpg" alt="Background" />
             </div>
-        </div>
     );
 };
 
