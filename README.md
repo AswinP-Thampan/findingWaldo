@@ -8,7 +8,7 @@ Here is a demo of how the project works:
 
 ![Demo](./Demo.gif)
 
-Open [`eaf1.vercel.app`](https://findmywaldo.vercel.app/) with your browser to see the result.
+Open [`findmywaldo.vercel.app/`](https://findmywaldo.vercel.app/) with your browser to see the result.
 
 
 ## Stack Used
